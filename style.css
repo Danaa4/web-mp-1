@@ -1,0 +1,153 @@
+
+
+body{
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ /* background-color: #c5dddd; */
+ background-color: #cad2c5;
+ 
+}
+
+.topnav{
+    /* background-color: #60c5c5; */
+    background-color: #52796f;
+    color: white;
+    padding:20px;
+    font-size:26px;
+    width: 1380px;
+    
+}
+
+.topword{
+    transition: all 0.1s ease-in-out;
+}
+.topword:hover{
+    /* text-shadow: 2px 2px 5px rgb(19, 20, 20); */
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(255, 255, 255)
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+}
+.navflex{
+    display: flex;
+    justify-content:left;
+    align-items:center;  
+}
+
+.top{
+   display: flex;
+   justify-content: space-between;
+   font-size: 35px;
+   width:900px ;
+    position: relative;
+    left:-120px;
+    
+}
+
+.logo{
+    width:20%;
+    border-radius:50%;
+    
+}
+
+.vertical-menu{
+    /* background-color: #75d3d3; */
+    background-color: #84a98c;
+    color: rgb(0, 0, 0);
+    padding: 5px; 
+    height:1200px ;
+    width: 150px;
+    text-align: center; 
+    float: left;
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.vmflex{
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.side{
+    margin-top: 30px;
+ margin-bottom: 50px;
+}
+
+.carddiv{
+    width:1000px;
+    float: left;
+    margin-left: 100px;
+    
+   
+}
+
+.card{
+    background-color: rgb(235, 234, 233);
+    width: 250px; 
+    height: 280px;
+    border-radius: 24px;
+    margin:40px;  
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 10px 10px 5px grey;
+    width: 260px;
+    height: 290px;
+
+}
+
+.cardf{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.movie{
+    width: 250px; 
+    height: 280px;
+    border-radius: 24px;
+    transition: all 0.2s ease-in-out;
+}
+.movie:hover{
+    box-shadow: 10px 10px 5px grey;
+    width: 260px;
+    height: 290px;}
+
+.fav{
+    position: relative;
+    left:160px;
+    top: 62px;
+    color: white;
+    font-size: 30px;
+}
+
+.trn{
+    position: relative;
+    right: 950px;
+    top: 355px;
+    color: white;
+    font-size: 30px;
+}
+
+.wa{
+    position: relative;
+    right: 950px;
+    top:649px;
+    color: white;
+    font-size: 30px;
+    
+
+}
